@@ -1,6 +1,6 @@
 # Extraction results
 
-The operation produced two primary SQLite files: one for directory URLs and one for extracted contact records. Counts below were measured from the archived files using read-only SQLite connections.
+The extraction ran on a VPS for one week and produced two primary SQLite files: one for directory URLs and one for extracted contact records. The [complete results are available on GitHub](https://github.com/Amine-Belgacem/pagesjaunes-contact-extraction/releases/tag/results-2021). Counts below were measured from the original files using read-only SQLite connections.
 
 ## URL collection
 
@@ -32,11 +32,5 @@ The total describes stored rows across five tables. Overlap between tables and u
 | Traversal state | URL, page, and block fields in some tables. |
 
 The [schema](schema.sql) preserves the original column names and definitions without including contact values. The [inventory](inventory.json) records counts, file sizes, and SHA-256 hashes.
-
-## Agent runtime files
-
-`PJ_Scarper` contains the configuration and a small saved runtime/debug state. Its internal database has separate tables for the main workflow, pagination, contact blocks, and the next-page stage. The saved runtime database includes a timestamp of 1 April 2021.
-
-The small runtime and export databases are separate from the two large collection databases. Their row counts are not added to the collection totals above.
 
 [Back to the project](../README.md)

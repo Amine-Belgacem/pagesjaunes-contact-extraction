@@ -1,16 +1,15 @@
-# Archive storage
+# Result storage and downloads
 
-The complete archive is stored locally in this project's `originals/` folder. All 13 original files retain their contents, filenames, and internal directory structure. The parent project folder was renamed from `pagejaune.fr-scraping` to `pagesjaunes-contact-extraction` when this repository was prepared.
+The complete original databases are hosted as assets in the private [results release](https://github.com/Amine-Belgacem/pagesjaunes-contact-extraction/releases/tag/results-2021). They preserve the output of the week-long VPS operation without redaction or byte changes.
 
-| Material | Local archive | Private GitHub repository |
-|---|---|---|
-| `PJ_Scarper/PJ_Scarper.scg` agent configuration | Complete original | Complete original |
-| `fr-urls.db` and `fr-phone-leads.db` | Complete originals | Inventory, hashes, schema, and aggregate counts |
-| Runtime/debug SQLite files | Complete originals | File inventory and hashes |
-| CSV exports and browser log | Complete originals | File inventory and hashes |
-| Case study and inspection script | Included | Included |
+| Result | Bytes | Download |
+|---|---:|---|
+| URL database | 163,897,344 | [fr-urls.db](https://github.com/Amine-Belgacem/pagesjaunes-contact-extraction/releases/download/results-2021/fr-urls.db) |
+| Contact database | 2,078,420,992 | [fr-phone-leads.db](https://github.com/Amine-Belgacem/pagesjaunes-contact-extraction/releases/download/results-2021/fr-phone-leads.db) |
 
-The two large SQLite files total 2,242,318,336 bytes. Git ignore rules keep all original runtime files and datasets local while allowing the original `.scg` configuration to be tracked. A Git clone therefore contains the write-up and configuration; it does not include the local datasets. The GitHub repository is not a backup of those excluded files.
+The two files total 2,242,318,336 bytes. They are release downloads because they exceed GitHub's normal Git file-size limit. The repository and its release remain private.
+
+Local copies are stored in `originals/fr-urls.db` and `originals/fr-phone-leads.db`. A Git clone contains the documentation and inspection script; download the release assets into `originals/` to inspect the complete results locally. [SHA-256 hashes and inventory](inventory.json).
 
 ## Inspecting the archive
 

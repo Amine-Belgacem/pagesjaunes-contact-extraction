@@ -1,84 +1,23 @@
 {
-  "format": 1,
+  "format": 2,
   "rowCountMeaning": "Stored rows; not deduplicated contacts.",
+  "operation": {
+    "environment": "VPS",
+    "duration": "one week"
+  },
+  "release": "https://github.com/Amine-Belgacem/pagesjaunes-contact-extraction/releases/tag/results-2021",
   "files": [
     {
       "path": "fr-phone-leads.db",
       "bytes": 2078420992,
       "sha256": "08a739b1a7aa6c5b193a8916758b44f66d4d663440bd700f77150b46782b8f22",
-      "trackedOriginal": false
+      "githubStorage": "release asset"
     },
     {
       "path": "fr-urls.db",
       "bytes": 163897344,
       "sha256": "ce01eacce66e31f4e3289f1b6ce76f8d12a32019fcb1e77f6690dba4559c61ed",
-      "trackedOriginal": false
-    },
-    {
-      "path": "PJ_Scarper/Data/PJ_Scarper_controler.db",
-      "bytes": 28672,
-      "sha256": "0a881d37035f332d8027e11e73df1a213a57fbb8c1b863206f84f3e755aabd0f",
-      "trackedOriginal": false
-    },
-    {
-      "path": "PJ_Scarper/Data/PJ_Scarper_export.db",
-      "bytes": 12288,
-      "sha256": "4238b5451a5c314c19b0dcbe1e42ac498a83107f71f9160ae93521028e1915bc",
-      "trackedOriginal": false
-    },
-    {
-      "path": "PJ_Scarper/Data/PJ_Scarper_internal.db",
-      "bytes": 69632,
-      "sha256": "6c35b52b6dd795a1860d42cd820f68ec2c9715c1983cc16cc4964aa1b3c03ff5",
-      "trackedOriginal": false
-    },
-    {
-      "path": "PJ_Scarper/Data/PJ_Scarper_log.db",
-      "bytes": 12288,
-      "sha256": "b9ca1967db9b02c27da1c5fcab5ca687895e018084173e95a4c7bcc7f4c24eaa",
-      "trackedOriginal": false
-    },
-    {
-      "path": "PJ_Scarper/Debug/Export/PJ_Scarper.csv",
-      "bytes": 139,
-      "sha256": "73ceac4ff9f51d960c74520484a2c82d1b1ecde7d811056fc879bed3e2cbf5ef",
-      "trackedOriginal": false
-    },
-    {
-      "path": "PJ_Scarper/Debug/PJ_Scarper_export.db",
-      "bytes": 12288,
-      "sha256": "9fd443b7f38cc63793ce7a0a8d5a921c7b1ca0447e95d70368c129cc93d1fc11",
-      "trackedOriginal": false
-    },
-    {
-      "path": "PJ_Scarper/Debug/PJ_Scarper_internal.db",
-      "bytes": 86016,
-      "sha256": "13a1bfd0c92b049f986e5fda4a75a9b52c7b4555fd11a04f2ff4b6b7bcf1aa74",
-      "trackedOriginal": false
-    },
-    {
-      "path": "PJ_Scarper/Debug/PJ_Scarper_log.db",
-      "bytes": 12288,
-      "sha256": "4dd502d23a74a467b62447bd88e400b8375ae1237a2926d33a1298be226fc81f",
-      "trackedOriginal": false
-    },
-    {
-      "path": "PJ_Scarper/Export/PJ_Scarper.csv",
-      "bytes": 327,
-      "sha256": "5a93d47e83420f5f2dd91ac98439d3503edbb255b706754e710fa086b13e2bfc",
-      "trackedOriginal": false
-    },
-    {
-      "path": "PJ_Scarper/Log/Web_Browser_2021_4_1.log",
-      "bytes": 566,
-      "sha256": "f990cab78f9cb6c62ec7bb5ded8f99591f63e8be1a8bd376dc77cf322ebb1f18",
-      "trackedOriginal": false
-    },
-    {
-      "path": "PJ_Scarper/PJ_Scarper.scg",
-      "bytes": 6055,
-      "sha256": "ad38b78092c427daaa6a774cf1b188246dde58b54efaa1bd03c1d366040fa2e2",
-      "trackedOriginal": true
+      "githubStorage": "release asset"
     }
   ],
   "databases": [
@@ -206,9 +145,5 @@
     "hosts": {
       "www.pagesjaunes.fr": 1000
     }
-  },
-  "archivedRunDates": {
-    "first": "2021-04-01 13:21:43.7962219",
-    "last": "2021-04-01 13:21:43.7962219"
   }
 }

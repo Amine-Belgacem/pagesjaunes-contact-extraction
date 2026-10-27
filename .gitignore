@@ -1,7 +1,5 @@
-# Original datasets and runtime files remain local. Track only the agent configuration.
+# Complete SQLite results are published as private GitHub release assets.
 /originals/**
-!/originals/PJ_Scarper/
-!/originals/PJ_Scarper/PJ_Scarper.scg
 
 .env
 .env.*
