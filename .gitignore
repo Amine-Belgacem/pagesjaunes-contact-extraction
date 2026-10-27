@@ -1,0 +1,12 @@
+# Original datasets and runtime files remain local. Track only the agent configuration.
+/originals/**
+!/originals/PJ_Scarper/
+!/originals/PJ_Scarper/PJ_Scarper.scg
+
+.env
+.env.*
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+Desktop.ini

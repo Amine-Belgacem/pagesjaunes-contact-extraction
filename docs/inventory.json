@@ -1,0 +1,214 @@
+{
+  "format": 1,
+  "rowCountMeaning": "Stored rows; not deduplicated contacts.",
+  "files": [
+    {
+      "path": "fr-phone-leads.db",
+      "bytes": 2078420992,
+      "sha256": "08a739b1a7aa6c5b193a8916758b44f66d4d663440bd700f77150b46782b8f22",
+      "trackedOriginal": false
+    },
+    {
+      "path": "fr-urls.db",
+      "bytes": 163897344,
+      "sha256": "ce01eacce66e31f4e3289f1b6ce76f8d12a32019fcb1e77f6690dba4559c61ed",
+      "trackedOriginal": false
+    },
+    {
+      "path": "PJ_Scarper/Data/PJ_Scarper_controler.db",
+      "bytes": 28672,
+      "sha256": "0a881d37035f332d8027e11e73df1a213a57fbb8c1b863206f84f3e755aabd0f",
+      "trackedOriginal": false
+    },
+    {
+      "path": "PJ_Scarper/Data/PJ_Scarper_export.db",
+      "bytes": 12288,
+      "sha256": "4238b5451a5c314c19b0dcbe1e42ac498a83107f71f9160ae93521028e1915bc",
+      "trackedOriginal": false
+    },
+    {
+      "path": "PJ_Scarper/Data/PJ_Scarper_internal.db",
+      "bytes": 69632,
+      "sha256": "6c35b52b6dd795a1860d42cd820f68ec2c9715c1983cc16cc4964aa1b3c03ff5",
+      "trackedOriginal": false
+    },
+    {
+      "path": "PJ_Scarper/Data/PJ_Scarper_log.db",
+      "bytes": 12288,
+      "sha256": "b9ca1967db9b02c27da1c5fcab5ca687895e018084173e95a4c7bcc7f4c24eaa",
+      "trackedOriginal": false
+    },
+    {
+      "path": "PJ_Scarper/Debug/Export/PJ_Scarper.csv",
+      "bytes": 139,
+      "sha256": "73ceac4ff9f51d960c74520484a2c82d1b1ecde7d811056fc879bed3e2cbf5ef",
+      "trackedOriginal": false
+    },
+    {
+      "path": "PJ_Scarper/Debug/PJ_Scarper_export.db",
+      "bytes": 12288,
+      "sha256": "9fd443b7f38cc63793ce7a0a8d5a921c7b1ca0447e95d70368c129cc93d1fc11",
+      "trackedOriginal": false
+    },
+    {
+      "path": "PJ_Scarper/Debug/PJ_Scarper_internal.db",
+      "bytes": 86016,
+      "sha256": "13a1bfd0c92b049f986e5fda4a75a9b52c7b4555fd11a04f2ff4b6b7bcf1aa74",
+      "trackedOriginal": false
+    },
+    {
+      "path": "PJ_Scarper/Debug/PJ_Scarper_log.db",
+      "bytes": 12288,
+      "sha256": "4dd502d23a74a467b62447bd88e400b8375ae1237a2926d33a1298be226fc81f",
+      "trackedOriginal": false
+    },
+    {
+      "path": "PJ_Scarper/Export/PJ_Scarper.csv",
+      "bytes": 327,
+      "sha256": "5a93d47e83420f5f2dd91ac98439d3503edbb255b706754e710fa086b13e2bfc",
+      "trackedOriginal": false
+    },
+    {
+      "path": "PJ_Scarper/Log/Web_Browser_2021_4_1.log",
+      "bytes": 566,
+      "sha256": "f990cab78f9cb6c62ec7bb5ded8f99591f63e8be1a8bd376dc77cf322ebb1f18",
+      "trackedOriginal": false
+    },
+    {
+      "path": "PJ_Scarper/PJ_Scarper.scg",
+      "bytes": 6055,
+      "sha256": "ad38b78092c427daaa6a774cf1b188246dde58b54efaa1bd03c1d366040fa2e2",
+      "trackedOriginal": true
+    }
+  ],
+  "databases": [
+    {
+      "path": "fr-urls.db",
+      "bytes": 163897344,
+      "tables": [
+        {
+          "name": "URLs",
+          "rows": 963207,
+          "columns": [
+            "Letter",
+            "LastName",
+            "FirstName",
+            "URL",
+            "id"
+          ],
+          "createSql": "CREATE TABLE \"URLs\" (\r\n  \"Letter\" TEXT(255),\r\n  \"LastName\" TEXT(255),\r\n  \"FirstName\" TEXT(255),\r\n  \"URL\" TEXT(255),\r\n  \"id\" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT\r\n)"
+        }
+      ]
+    },
+    {
+      "path": "fr-phone-leads.db",
+      "bytes": 2078420992,
+      "tables": [
+        {
+          "name": "A",
+          "rows": 169828,
+          "columns": [
+            "Last Name",
+            "First Name",
+            "Street",
+            "Zip",
+            "City",
+            "Phone",
+            "Allowed",
+            "Phone (2)",
+            "Allowed (2)"
+          ],
+          "createSql": "CREATE TABLE \"A\" (\r\n  \"Last Name\" TEXT(255),\r\n  \"First Name\" TEXT(255),\r\n  \"Street\" TEXT(255),\r\n  \"Zip\" TEXT(255),\r\n  \"City\" TEXT(255),\r\n  \"Phone\" TEXT(255),\r\n  \"Allowed\" TEXT(255),\r\n  \"Phone (2)\" TEXT(255),\r\n  \"Allowed (2)\" TEXT(255)\r\n)"
+        },
+        {
+          "name": "B",
+          "rows": 769072,
+          "columns": [
+            "Lastname",
+            "Name",
+            "Street",
+            "Zip",
+            "City",
+            "Phone",
+            "Allowed",
+            "Phone (2)",
+            "Allowed (2)"
+          ],
+          "createSql": "CREATE TABLE \"B\" (\r\n  \"Lastname\" TEXT(255),\r\n  \"Name\" TEXT(255),\r\n  \"Street\" TEXT(255),\r\n  \"Zip\" TEXT(255),\r\n  \"City\" TEXT(255),\r\n  \"Phone\" TEXT(255),\r\n  \"Allowed\" TEXT(255),\r\n  \"Phone (2)\" TEXT(255),\r\n  \"Allowed (2)\" TEXT(255)\r\n)"
+        },
+        {
+          "name": "C",
+          "rows": 470335,
+          "columns": [
+            "CurrentURL",
+            "PageCount",
+            "currentPage",
+            "CurrentBlock",
+            "Lastname",
+            "name",
+            "Street",
+            "Zip",
+            "City",
+            "Phone",
+            "Allowed",
+            "Phone (2)",
+            "Allowed (2)"
+          ],
+          "createSql": "CREATE TABLE \"C\" (\r\n  \"CurrentURL\" TEXT(255),\r\n  \"PageCount\" TEXT(255),\r\n  \"currentPage\" TEXT(255),\r\n  \"CurrentBlock\" TEXT(255),\r\n  \"Lastname\" TEXT(255),\r\n  \"name\" TEXT(255),\r\n  \"Street\" TEXT(255),\r\n  \"Zip\" TEXT(255),\r\n  \"City\" TEXT(255),\r\n  \"Phone\" TEXT(255),\r\n  \"Allowed\" TEXT(255),\r\n  \"Phone (2)\" TEXT(255),\r\n  \"Allowed (2)\" TEXT(255)\r\n)"
+        },
+        {
+          "name": "PJWScarper",
+          "rows": 93200,
+          "columns": [
+            "URL",
+            "RS",
+            "PC",
+            "P",
+            "Num",
+            "Lastname",
+            "Name",
+            "Street",
+            "Zip",
+            "City",
+            "Phone",
+            "Allowed",
+            "Phone (2)",
+            "Allowed (2)"
+          ],
+          "createSql": "CREATE TABLE \"PJWScarper\" (\r\n  \"URL\" TEXT(255),\r\n  \"RS\" TEXT(255),\r\n  \"PC\" TEXT(255),\r\n  \"P\" TEXT(255),\r\n  \"Num\" TEXT(255),\r\n  \"Lastname\" TEXT(255),\r\n  \"Name\" TEXT(255),\r\n  \"Street\" TEXT(255),\r\n  \"Zip\" TEXT(255),\r\n  \"City\" TEXT(255),\r\n  \"Phone\" TEXT(255),\r\n  \"Allowed\" TEXT(255),\r\n  \"Phone (2)\" TEXT(255),\r\n  \"Allowed (2)\" TEXT(255)\r\n)"
+        },
+        {
+          "name": "eee",
+          "rows": 368179,
+          "columns": [
+            "URL",
+            "RS",
+            "PC",
+            "P",
+            "Num",
+            "Lastname",
+            "Name",
+            "Street",
+            "Zip",
+            "City",
+            "Phone",
+            "Allowed",
+            "Phone (2)",
+            "Allowed (2)"
+          ],
+          "createSql": "CREATE TABLE \"eee\" (\r\n  \"URL\" TEXT(255),\r\n  \"RS\" TEXT(255),\r\n  \"PC\" TEXT(255),\r\n  \"P\" TEXT(255),\r\n  \"Num\" TEXT(255),\r\n  \"Lastname\" TEXT(255),\r\n  \"Name\" TEXT(255),\r\n  \"Street\" TEXT(255),\r\n  \"Zip\" TEXT(255),\r\n  \"City\" TEXT(255),\r\n  \"Phone\" TEXT(255),\r\n  \"Allowed\" TEXT(255),\r\n  \"Phone (2)\" TEXT(255),\r\n  \"Allowed (2)\" TEXT(255)\r\n)"
+        }
+      ]
+    }
+  ],
+  "urlHostSample": {
+    "sampleRows": 1000,
+    "hosts": {
+      "www.pagesjaunes.fr": 1000
+    }
+  },
+  "archivedRunDates": {
+    "first": "2021-04-01 13:21:43.7962219",
+    "last": "2021-04-01 13:21:43.7962219"
+  }
+}
